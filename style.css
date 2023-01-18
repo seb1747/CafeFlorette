@@ -117,19 +117,20 @@ a{
   background: #888;
 }
 .vp{
-  height: 700px;
+  min-height: 700px;
   background: url(./images/cafe1.jpg);
   background-size: cover;
   text-align: center;
 }
 .vp-content{
   max-width: 600px;
+  padding: 20px ;
   padding-top: 150px;
   color: white;
   margin: auto;
 }
 .vp-content h1{
-  font-size: 50px;
+  font-size: 3rem;
 }
 .vp-content p {
   font-size: 18px;
@@ -139,7 +140,7 @@ a{
 /*features*/
 .features{
   overflow: auto;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 .feature{
@@ -157,7 +158,7 @@ a{
 
 .reservation
   {
-    padding: 100px 0px 100px 0px ;
+    padding: 100px 20px 100px 20px ;
     text-align: center;
   }
 
@@ -202,6 +203,7 @@ a{
 
   .contact-form-container{
     max-width: 600px;
+    padding: 20px;
     margin: auto;
   }
 
